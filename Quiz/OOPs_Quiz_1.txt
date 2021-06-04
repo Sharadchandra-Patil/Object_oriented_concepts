@@ -1,0 +1,269 @@
+1. 
+Which among the following is correct?
+Answers
+1. Private specifier must be used before public specifier
+2. Private specifier must be used before protected specifier
+3. Private specifier must be used first
+4. Private specifier can be used anywhere in class
+
+
+2. 
+Which of the following structure syntax is incorrect in case of c++?  
+
+ 1. struct
+   {
+        char name[ 30 ];
+        int empid;
+        float salary;
+    public :
+        void print_emp_info()
+        {
+            cout<<name<<endl;
+            cout<<empid<<endl;
+            cout<<salary<<endl;
+        }
+   }emp;
+   int main()
+   {
+       strcpy(emp.name,"John");
+       emp.empid=101;
+       emp.salary=10000;
+       emp.print_emp_info();
+   }
+
+
+ 2. typedef struct
+   {
+        char name[ 30 ];
+        int empid;
+        float salary;
+    public :
+        void print_emp_info()
+        {
+            cout<<name<<endl;
+            cout<<empid<<endl;
+            cout<<salary<<endl;
+        }
+   }emp;
+   int main()
+   {
+       emp e1;
+       strcpy(e1.name,"John");
+       e1.empid=101;
+       e1.salary=10000;
+       e1.print_emp_info();
+   }
+
+ 3.typedef struct
+   {
+    private:
+        char name[ 30 ];
+        int empid;
+        float salary;
+    public :
+        void print_emp_info()
+        {
+            cout<<name<<endl;
+            cout<<empid<<endl;
+            cout<<salary<<endl;
+        }
+   }emp;
+   int main()
+   {
+       emp e1;
+       strcpy(e1.name,"John");
+       e1.empid=101;
+       e1.salary=10000;
+       e1.print_emp_info();
+   }
+
+Answers
+1. All 1, 2 and 3 are incorrect
+2. Only 3 is incorrect
+3. Only 1 is incorrect
+4. Both 1 and 2 are incorrect
+
+
+
+3. 
+Which of following statements are true in context of following code?                                                                       #include<iostream>
+using namespace std;
+class Point
+{
+private:
+	int xPos;
+	int yPos;
+public:
+	Point(void)
+	{
+		this->xPos=0;
+		this->yPos=0;
+
+	}
+	Point(int value)
+	{
+		this->xPos=value;
+		this->yPos=value;
+
+	}
+
+	Point(int x,int y)
+	{
+		this->xPos=x;
+		this->yPos=y;
+
+	}
+};
+
+int main()
+{
+	point pt1(10,20);
+	Point pt2=30;
+
+	return 0;
+}
+
+Answers
+1. For pt1 object parameterized constructor with two parameters will call
+2. Compile time error
+3. For pt2 object single parameterized constructor will call
+4. Both 1 and 3
+
+
+4. 
+Which of the following statement is incorrect in context of inline function?   
+                                                                                                                                                                                                                                                                                                                                                        
+  1.Inline functions gets process during compile time                                                                                                                                                                                                                                                                                                                                                                    
+  2.If we implement member function inside class then by default it is considered as inline                                              
+  3.If function is inline we cannot separate its code in multiple files.                                                                                 
+  4.If we want to reduce overhead to the compiler during function call then we should declare function as a inline
+
+Answers
+1. Only 1 is incorrect
+2. Both 1 and 2 are incorrect
+3. Both 1 and 3 are incorrect
+4. 1, 2 and 4 are incorrect
+5. None of the above
+
+
+5. 
+which of the following statement is correct in context of object?
+       1. value stored inside object is called state of the object 
+       2. Property of an object which distinguishes it from all other objects is called state of the object
+       3. Member function of class represent behaviour of object
+
+Answers
+1. Only 1
+2. Both 1 and 2 are correct
+3. Both 1 and 3 are correct
+4. All of the above
+
+
+6. 
+Which of the following statements is/are correct in context of class?
+
+ 1.Class is a collection of data member and member functions.
+ 2.Class is a physical entity.
+
+Answers
+1. Only 2 is correct
+2. Only 1 is correct
+3. Both 1 and 2 are correct
+4. None of the above
+
+
+7. 
+What is  output of this program?                                                                                                                                  void fun(int=10,int=20,int=30);
+void fun(int, int);
+	
+int main()
+{
+	fun(1,2);
+	return 0;
+}
+
+void fun(int x,int y,int z)
+{
+        Cout<<endl<<x<<endl<<y<<endl<<z;
+}
+
+
+void fun(int x,int y)
+{
+	cout<<endl<<x<<endl<<y;
+}
+
+Answers
+1. 1                     2
+2. Compile time error
+3. 1                     2                                 30
+4. none of the above
+
+8. 
+Which of the following statements are true in context of the program below?
+                                                                  
+#include<iostream>
+using namespace std;
+class Point
+{
+private:
+	int xPos;
+	int yPos;
+public:
+	Point(void)
+	{
+		this->xPos=0;
+		this->yPos=0;
+	}
+	Point(int value)
+	{
+		this->xPos=value;
+		this->yPos=value;
+	}
+
+	Point(int x,int y)
+	{
+		this->xPos=x;
+		this->yPos=y;
+	}
+};
+
+int main()
+{
+	Point(10,20);
+	Point pt2=(30,40);
+	Point pt3();
+
+	return 0;
+}
+
+Answers
+1. point(10,20); is the anonymous object
+2. Compile time error
+3. For pt2 object single parameterized constructor will call and xPos and yPos will  initialize by 30
+4. For pt2 object single parameterized constructor will call and xPos and yPos will initialize by 40
+5. Both A and D
+
+9. 
+Which of the following statements are correct?
+  1.A member function, which is used to modify the state of the object is called mutator function.
+  2.Mutator function also known as modifier function or setter function
+  3.Member function, which allows us to perform operations on Console/file/database is
+    called Inspector function.
+Answers
+1. Only 1 is correct
+2. All 1, 2 and 3 are correct
+3. Both 2 and 3 are correct
+4. Both 1 and 2 are correct
+
+
+
+10. 
+Which of the following permits function overloading in c++?
+Answers
+1. Type of arguments
+2. Number of arguments
+3. Type,Number and Sequence of arguments
+4. Return type of function
+5. Both C and D
+

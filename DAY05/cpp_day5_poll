@@ -1,0 +1,36 @@
+CPP _DAY 5 
+
+Which of the following feature is used in function overloading and function with default argument?
+a) Encapsulation
+b) Polymorphism
+c) Abstraction
+d) Modularity
+
+Answer : B
+
+ Which of the following gets called when an object is being created?
+
+A. Constuctor
+B. Virtual Function
+C. Destructor
+D. Main
+
+Answer :A
+
+Like constructors, can there be more than one destructors in a class?
+
+A. Yes
+B. No
+C. May Be
+D. Can't Say
+
+Answer :B
+
+
+How constructors are different from other member functions of the class?
+a) Constructor has the same name as the class itself
+b) Constructors do not return anything
+c) Constructors are automatically called when an object is created
+d) All of the mentioned
+
+Answer : D

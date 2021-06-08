@@ -1,0 +1,77 @@
+DAY 6 : Poll Questions
+
+Where can the default parameter be placed by the user?
+a) leftmost
+b) rightmost
+c) both leftmost & rightmost
+d) topmost
+
+Answer: B
+
+
+
+
+void sum(int a=10,int b=20,int c=30);
+
+sum() // allowed : 10+20+30 = 60
+sum(20) // allowed : 20+20+30 = 70
+sum(100,200) // allowed : 100+200 + 30 = 330
+sum(100,200,300) // allowed : 100 + 200 + 300 = 600
+
+
+void sum(int a=10,int b=20,int c);
+
+sum() // not allowed a=10 b=20 c ????
+sum(5) // allowed  a=10 b=20 c = 5  
+
+
+
+void sum(int a,int b=20,int c=30);
+sum(10,200,300) a=10 b=200 c=300
+sum(20)  a = 20 b = 20 c =30
+
+sum(,40,50)  // not allowed 
+
+
+sum(10,,40); // not allowed 
+
+
+
+
+
+
+
+
+
+How many types of constructors are there in C++?
+a) 1
+b) 2
+c) 3
+d) 4
+
+Answer :C
+
+
+
+What is syntax of defining a destructor of class A?
+a) A(){}
+b) ~A(){}
+c) A::A(){}  
+d) ~A(){};
+
+Answer :B
+
+By default how the value are passed in c++?
+a) call by value
+b) call by reference
+c) call by pointer
+d) call by object
+
+Answer : A
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+DAY 7 : Poll Questions
+Which of the following implements the module in the program?
+a) macro
+b) header files
+c) macro & header files
+d) interfaces
+
+Answer : B
+
+How are the constants declared?
+a) const keyword
+b) #define preprocessor
+c) both const keyword and #define preprocessor
+d) $define
+
+Answer : C
+
+What are the constant member functions?
+a) Functions which doesn’t change value of calling object
+b) Functions which doesn’t change value of any object inside definition
+c) Functions which doesn’t allow modification of any object of class
+d) Functions which doesn’t allow modification of argument objects
+
+Answer : A
+
+Can a constructor function be constant?
+a) Yes, always
+b) Yes, only if permissions are given
+c) No, because objects are not involved
+d) No, never
+
+Answer : D

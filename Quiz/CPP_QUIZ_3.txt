@@ -1,0 +1,155 @@
+1. 
+_________ is called when a new object is created from an existing object, as a copy of the existing object
+Answers
+1. Copy Constructor              //<--Ans
+2. Default Constructor
+3. Assignment operator
+4. None of above
+
+
+2. 
+_______ assigns the value of one object to another object both of which are already exists.
+Answers
+1. constructor
+2. Copy constructor
+3. Assignment Operator     //<--Ans
+4. None of Above
+
+
+3. 
+What will be the output of the following C++ code?
+
+#include <iostream>
+using namespace std;
+class Point
+{
+    int x, y;
+ public:
+   Point(const Point &p)
+   {
+	   x = p.x;
+	   y = p.y;
+   }
+   int getX()
+   {
+	   return x;
+   }
+   int getY()
+   {
+	   return y;
+   }
+};
+
+int main()
+{
+    Point p1;
+    Point p2 = p1;
+    cout << "x = " << p2.getX() << " y = " << p2.getY();
+    return 0;
+}
+Answers
+1. x = garbage value y = garbage value
+2. x = 0 y = 0
+3. Compiler Error                        //<--Ans
+4. None of the above
+
+
+4. 
+Default copy constructor does __________
+Answers
+1. Deep Copy
+2. Shallow copy       //<--Ans
+3. Both A and B
+4. None of Above
+
+
+5. 
+Which of the below is correct syntax to call copy constructor?
+Answers
+1. Employee e1 , e2;
+2. Employee e1 = e2;         //<--Ans
+3. Employee e1 , e2; e1=e2
+4. none of above
+
+6. 
+What will be the output of the following C++ code?
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arr[5];
+    arr[0] = 5;
+    arr[2] = -10;
+    arr[3 / 2] = 2;
+    arr[3] = arr[0];
+
+    cout << arr[0] << " " << arr[1]
+         << " " << arr[2] << " " << arr[3];
+
+    return 0;
+}
+Answers
+1. 5 2 -10 5                //<--Ans
+2. Compile time error
+3. Runtime error
+4. 5 2 -10 2
+
+7. 
+Syntax for Copy constructor is
+Answers
+1. classname (const classname &obj) {    // body of constructor }   //<--Ans
+2. classname(){    // body of constructor }
+3. Both A and B
+4. None of above
+
+8. 
+Which of the below is correct syntax to call an assignment operator?
+Answers
+1. Employee e1 , e2;
+2. Employee e1 = e2;
+3. Employee e1 , e2; e1=e2
+4. None of the above
+
+9. 
+Which of the following gives the address of the first element in array?
+Answers
+1. array[0];
+2. array[1];
+3. array(2);
+4. array;           //<--Ans
+
+10. 
+What will be the output of the following C++ code?
+ #include<iostream>
+ using namespace std;
+ 
+ class Point {
+ public:
+    Point() 
+    { 
+      cout << "Normal Constructor called"<<endl; 
+    }
+    Point(const Point &t) 
+    { 
+       cout << "Copy constructor called"<<endl; 
+    }
+ };
+ 
+ int main()
+ {
+   Point *t1, *t2;
+   t1 = new Point();
+   t2 = new Point(*t1);
+   Point t3 = *t1;
+   Point t4;
+   t4 = t3;
+   return 0;
+ }
+
+Answers
+//<--Ans  1. Normal Constructor called    Copy Constructor called   
+             Copy Constructor called    Normal Constructor called
+2. Normal Constructor called    Normal Constructor called    Normal Constructor called    Copy Constructor called    Copy Constructor called    Normal Constructor called    Copy Constructor called
+3. Normal Constructor called    Copy Constructor called    Copy Constructor called    Normal Constructor called    Copy Constructor called
+4. None of the above

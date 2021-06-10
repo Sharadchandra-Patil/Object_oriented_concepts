@@ -1,0 +1,34 @@
+DAY 8 : Poll Questions
+
+Which is the correct syntax for declaring static data member?
+a) static mamberName dataType;
+b) dataType static memberName;
+c) memberName static dataType;
+d) static dataType memberName;
+
+Answer : D
+
+The static data member ______________________
+a) Must be defined inside the class
+b) Must be defined outside the class
+c) Must be defined in main function
+d) Must be defined using constructor
+
+Answer : B
+
+The syntax for defining the static data members is __________
+a) dataType className :: memberName = value;
+b) dataType className : memberName = value;
+c) dataType className . memberName = value;
+d) dataType className -> memberName =value;
+
+Answer : A
+
+
+The objects allocated using new operator ________________
+a) Are destroyed when they go out of scope
+b) Are not destroyed even if they go out of scope
+c) Are destroyed anytime
+d) Are not destroyed throughout the program execution
+
+Answer  : B

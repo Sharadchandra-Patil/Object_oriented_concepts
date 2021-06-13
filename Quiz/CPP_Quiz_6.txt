@@ -1,0 +1,79 @@
+1. 
+Why do we need to handle exceptions?
+Answers
+1. To prevent abnormal termination of program        //<--Ans
+2. To encourage exception prone program
+3. To avoid syntax errors
+4. To save memory
+
+2. 
+Which of the following member function that is declared within a base class and redefined by derived class?
+Answers
+1. Static function
+2. Friend function
+3. Virtual function     //<--Ans
+4. None
+
+3. 
+Syntax for Pure Virtual Function is ______________ .
+Answers
+1. virtual void show()==0;
+2. void virtual show()==0;
+3. void virtual show()=0;
+4. virtual void show()=0;       //<--Ans
+
+4. 
+What is Down casting ?
+Answers
+1. Casting subype to supertype
+2. Casting supertype to subtype      //<--Ans
+3. Both A and B
+4. None of above
+
+5. 
+Which of the following keyword is used to avoid diamond problem?
+Answers
+1. Static
+2. Virtual                //<--Ans
+3. New
+4. None
+
+6. 
+If we extend abstract class then it is ______________ to override pure virtual function in derived class otherwise
+derived class can be considered as abstract?
+Answers
+1. Mandatory                        //<--Ans
+2. Optional
+3. Depends on User Requirement
+4. None
+
+7. 
+If we redefine virtual function of base class into derived class as same signature,  then this process is called as?
+Answers
+1. Function Overloading
+2. Template
+3. Object slicing
+4. Function Overriding           //<--Ans
+
+8. 
+allows us to treat a derived type as though it were its base type
+Answers
+1. Deep Copy
+2. Constant data members
+3. Upcasting               //<--Ans
+4. Downcasting
+
+9. 
+What is meant by template parameter?
+Answers
+1. It can be used to pass a type as argument          //<--Ans
+2. It can be used to evaluate a type
+3. It can of no return type
+4. None of the mentioned
+
+10. When VTABLE (Virtual table) get created for a class?
+Answers
+1. Every class by default has virtual table
+2. When a Class Overrides the function of Base class
+3. When a class contains at least one virtual function             //<--Ans
+4. When a class is derived from a base class.

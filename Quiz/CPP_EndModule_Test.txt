@@ -1,0 +1,186 @@
+1. 
+cout is a/an
+Answers
+1. operator
+2. function
+3. object                //<--Ans
+4. macro
+
+
+2. 
+Friend function speically is used for
+Answers
+1. to access private data memeber of different class    //<--Ans
+2. to avoid private data memeber of different class
+3. Both A & B
+4. None of the above
+
+
+3. 
+C++ abstract class can contain
+Answers
+1. Pure virtual function
+2. Non-virtual function
+3. Only pure virtual function
+4. pure virtual,non-virtual function,virtual function        //<--Ans
+
+
+4. 
+Copy constructor must recieve its arguments by
+Answers
+1. only pass-by-refernece                  //<--Ans
+2. only pass-by-value
+3. only pass by address
+4. All of the above
+
+
+5. 
+Which of the following is an abstract data type?
+Answers
+1. int
+2. boolean
+3. bool
+4. class                  //<--Ans
+
+
+6. 
+Inheritance is used for achieving ...
+Answers
+1. Class Re-usability
+2. Creating a hierarchy of classes
+3. Extendibility
+4. All of Above           //<--Ans
+
+
+7. 
+Class xyz: public abc,public mnp{}; this is called as
+Answers
+1. Multilevel inheritance
+2. Multiple inheritance          //<--Ans
+3. Hybrid inheritance
+4. Hierarchical Inheritance
+
+
+8. 
+The function which is called without object name of class  is Called as .....
+Answers
+1. constant member function
+2. Inline function
+3. Static member function          //<--Ans
+4. Friend function
+
+
+9. 
+Exposing only necessary information to users is know as ...
+Answers
+1. Abstraction           //<--Ans
+2. Encapsulation
+3. Data hiding
+4. Composition
+
+
+10. 
+IS-A relationship in C++ is
+Answers
+1. Inheritance            //<--Ans
+2. Encapsulation
+3. Composition
+4. None
+
+
+
+11. 
+Which of the following can be overloaded?
+Answers
+1. Object
+2. Operators
+3. Functions
+4. Both B and C        //<--Ans
+
+
+12. 
+Correct way of creating an object of a class called Student is
+Answers
+1. Student student;
+2. Student *student=new Student();
+3. Only B
+4. A & B Both          //<--Ans
+
+
+13. 
+What are the different type of inheritance
+Answers
+1. multiple
+2. Multi-level
+3. Single level
+4. All of the above       //<--Ans
+
+
+
+14. 
+If you want to write multiple functions in a class with same name, then what C++ feature will you use?
+Answers
+1. Function overriding
+2. Encapsulation
+3. Function overloading      //<--Ans
+4. None
+
+
+
+15. 
+Which of the following can not be declare as virtual in C++?
+Answers
+1. constructor              //<--Ans
+2. destructor
+3. function
+4. friend function
+
+
+
+16. 
+Following keyword is used before a function in a base class to be overridden in derived class in C++
+Answers
+1. override
+2. virtual               //<--Ans
+3. new override
+4. new
+
+
+
+
+17. 
+When we create object like(e.g Student *student =new Student();) then it is stored object on
+Answers
+1. Stack
+2. Heap                   //<--Ans
+3. Both A & B
+4. None of the above
+
+
+
+18. 
+By which class we can create only single object through out programe life
+Answers
+1. Abstract Class
+2. Friend Class
+3. Singleton Class             //<--Ans
+4. All Classes
+
+
+
+19. 
+To Create object of class Employee on stack which of the following syntax is correct.
+Answers
+1. Employee *emp=new Employee();
+2. Employee emp=new Employee();
+3. Employee emp;                    //<--Ans
+4. None
+
+
+
+20. What is purpose of Virtual destructor?
+Answers
+1. Virtual destructor is to destroy the VTable
+2. Destructor can be virtual so that we can override the destructor of base class in derived class.
+3. To maintain the call hierarchy of destructors of base and derived classes.       //<--Ans
+4. None

@@ -1,0 +1,109 @@
+1. 
+In case of operator overloading, operator function must be ________
+	1. Static member functions
+	2. Non- static member functions
+	3. Friend Functions
+Answers
+1. Only 2
+2. Only 1,3
+3. Only 2,3    //<--Ans
+4. All 1,2,3
+
+
+2. 
+Syntax for making member function as Constant is __________.
+Answers
+1. void display()
+2. void display() const     //<--Ans
+3. const void display()
+4. void const display()
+
+3. 
+If we want to overload, binary operator using member function then operator function should take...........parameter.
+Answers
+1. Zero
+2. One      //<--Ans
+3. Two
+4. none of above
+
+4. 
+Which keyword must be used to declare a member function as a constant member function?
+Answers
+1. Constant
+2. Const            //<--Ans
+3. FunctionConst
+4. Unchanged
+
+5. 
+Which of the following is true?
+Answers
+1. Static methods cannot be overloaded.
+2. Static data members can only be accessed by static methods
+3. Non-static data members can be accessed by static methods.
+4. Static member function can only access static members (data and methods)      //<--Ans
+
+6. 
+The static member functions ____________________
+Answers
+1. Can be called using class name      //<--Ans
+2. Can be called using program name
+3. Can be called directly
+4. Can’t be called outside the function
+
+7. 
+Default values for a function are specified in ______ when we write defination and declartion for function separatly.
+Answers
+1. function is defined
+2. function is declared      //<--Ans
+3. Both A and B
+4. None of above
+
+
+8. 
+What will be the output of the following C++ code?
+
+#include <iostream>
+using namespace std;
+class Test
+{
+	public:
+	Test();
+};
+Test::Test()
+{
+    cout << " Constructor Called. ";
+}
+void fun()
+{
+	static Test t1;
+}
+int main()
+{
+    cout << " Before fun() called. ";
+    fun();
+    fun();
+    cout << " After fun() called. ";
+    return 0;
+}
+Answers
+1. Constructor Called. Before fun() called. After fun() called.
+2. Before fun() called. Constructor Called. Constructor Called. After fun() called.
+3. Before fun() called. Constructor Called. After fun() called.         //<--Ans
+4. Constructor Called. Constructor Called. After fun() called. Before fun() called.
+
+
+9. 
+Which of the below mentioned can be made constant
+Answers
+1. Member functions of a class
+2. Function arguments
+3. Class data member
+4. All of Above                   //<--Ans
+
+
+10. Which of the following operator(s) cannot be overloaded?
+Answers
+1. . (Member Access or Dot operator)
+2. ?: (Ternary or Conditional Operator )
+3. :: (Scope Resolution Operator)
+4. All of the above                //<--Ans

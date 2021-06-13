@@ -1,0 +1,111 @@
+
+1. 
+Which inheritance type is used in the class given below? class A: public X, public Y {}
+Answers
+1. Multilevel inheritance
+2. Multiple inheritance   //<--Ans
+3. Single Inheritance
+4. None of above
+
+2. 
+If single base class is having multiple derived classes then such inheritance is called?
+Answers
+1. Multiple Inheritance
+2. Hierarchical Inheritance     //<--Ans
+3. Single Inheritance
+4. Multilevel Inheritance
+
+3. 
+What is the output of this program?
+#include<iostream>
+using namespace std;
+class Person
+{
+    public:
+ Person()
+    {
+     cout <<"We are in Person class"<< endl;
+    }
+};
+
+class Student: public Person
+{
+    
+};
+
+class Faculty: public Person
+{
+    
+};
+
+int main()
+{
+     Student student;
+     Faculty faculty;
+}
+Answers
+1. We are in Person class
+2. We are in Person class          We are in Person class       //<--Ans
+3. Compile time error
+4. Runtime Error
+
+
+4. 
+Wrapping of private data in classes in object-oriented programming languages is termed as
+Answers
+1. Data Encapsulation
+2. Data hiding
+3. Data binding
+4. Both A and B          //<--Ans
+
+
+5. 
+Default mode of inheritance is
+Answers
+1. Private
+2. Public
+3. Protected
+4. None
+
+6. 
+Which of the following support the concept of hierarchical classification?
+Answers
+1. Polymorphism
+2. Encapsulation
+3. Inheritance    //<--Ans
+4. Abstraction
+
+7. 
+If  there is a "is-a" relationship exist between two types we use?
+Answers
+1. Aggregation
+2. Inheritance      //<--Ans
+3. Composition
+4. None of the above
+
+
+8. 
+function that can perform different type of tasks, where the function name remains same, which feature of OOP is used here?
+Answers
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Constructor
+
+9. 
+Function Overloading comes under?
+9. Function Overloading comes under?
+Answers
+1. Compile Time Polymorphism        //<--Ans
+2. Runtime Polymorphism
+3. Abstraction
+4. None of the Above
+
+
+10. 
+When a protected member is inherited in public mode, it becomes ………. in the derived class too and therefore is accessible by member functions of the derived class.
+Answers
+1. protected        //<--Ans
+2. private
+3. public
+4. friend

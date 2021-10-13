@@ -13,7 +13,7 @@ class Demo
     }
     void disp()
     {
-        cout<< "N1 : "<<num1<< " N2 : "<<num2;
+        cout<< "N1 : "<<this->num1<< " N2 : "<<num2;
     }
 };
 int main(void)

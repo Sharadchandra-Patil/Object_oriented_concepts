@@ -1,11 +1,11 @@
 using namespace std;
 #include<iostream>
 
-/*
+
 inline int max(int n1,int n2) //inline function
 {
-    int result = (n1>n2)?n1:n2;
-    return result;
+    //int result = (n1>n2)?n1:n2;
+    return (n1>n2)?n1:n2;
 }
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
     cout<<"Result : "<<res;
     return 0;
 }
-*/
+
 
 
 //functions
@@ -23,14 +23,14 @@ int main(void)
 // 3. Function call
 
 
-/*
-void test(); //function declaration (global function)
+
+/*void test(); //function declaration (global function)
 
 int main(void)
 {
     // Scope resolution operator 
     // is to access the global functions
-    //test();
+    test();
     ::test();
     return 0;
 }

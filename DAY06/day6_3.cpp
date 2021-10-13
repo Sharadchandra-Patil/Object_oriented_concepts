@@ -5,25 +5,26 @@ void test(); // global
 
 class Demo
 {
+    public:
     static int num;
     public:
     static void test() //static member function
     {
-        cout<<" Inside Class Test() num1 :  "<<num<<endl;
+        cout<<" Inside Class Test() num1 :  "<<num+1<<endl;
     }
 };
-int Demo::num=50;
+int Demo::num{50};   //num=50;
 void test()
 {
     cout<<"Inside Global test ()";
 }
 int main(void)
 {
-    //test();
-    //::test(); 
-    //Demo d;
-    //d.test(); // test() is called upon object d 
-
+    test();
+    ::test(); 
+    Demo d;
+    d.test(); // test() is called upon object d 
+    Demo::num++;
     Demo::test();
     return 0;
 }

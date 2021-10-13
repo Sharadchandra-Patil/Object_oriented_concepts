@@ -8,7 +8,7 @@ using namespace std;
 // int 4elements ===> int *ptr =new int[n]
 // char 3 elements ==> char *ptr = new char[n] 
 
-template<class T>
+template <class T>
 
 class Array
 {

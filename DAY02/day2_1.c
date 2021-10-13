@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 // in case of C structure we can not define functions inside structure body
-
+/*
 struct Department
 {
     int id;
@@ -21,7 +21,7 @@ int main(void)
 
 
 
-/*
+*/
 typedef struct Employee
 {
     int id;  // data members / elements 
@@ -59,4 +59,3 @@ void disp(struct Employee e)
     printf("ID : %d Salary : %d",e.id,e.salary);
 }
 
-*/

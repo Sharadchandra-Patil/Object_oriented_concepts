@@ -47,7 +47,7 @@ class Employee : public Person
     }
     //call to paramatrized constructor of super class (UPCASTING)
     // is done by writing it in constructor member initiaalizer list 
-    Employee(int id,int salary,string name,int age) :Person(name,age)
+    Employee(int id,int salary,string name,int age):Person(name,age) 
     {
         cout<<" Inside Employee Paramatrized constuctor "<<endl;
         this->id=id;
@@ -56,8 +56,9 @@ class Employee : public Person
     }
     void print_emp_data()
     {
+         
         cout<<" ID : "<<this->id<<" Salary :"<<this->salary<<endl;
-        print_person_data(); //call to public member function of class inside derived class 
+        print_person_data(); //call to public member function of base class inside derived class 
     }
     ~Employee() // destructor 
     {
@@ -73,7 +74,7 @@ int main(void)
     // call to parameterless constructor of Base class and then
     //to derived class 
     
-    //e1.print_emp_data();
+   // e1.print_emp_data();
 
     Employee e2(1,60000,"Akshita",33);
     e2.print_emp_data();

@@ -1,6 +1,6 @@
 using namespace std;
 #include<iostream>
-
+/*
 //function with default argument
 
 void disp(int a=100,int b=200,int c=300,int d=400);
@@ -22,7 +22,7 @@ void disp(int a,int b,int c,int d)
     cout<<" A "<<a<<" B "<<b<< " C "<<c<< " D "<<d<<endl;
 }
 
-
+*/
 /*
 void disp(int a,int b,int c,int d);
 
@@ -42,7 +42,7 @@ void disp(int a,int b,int c,int d)
 
 
 
-/*
+
 // SAME FUNCTION NAME WITH DIFFERENT NUMBER OF ARGUMENTS
 // FUNCTION OVERLOADING (Compile Time Polymorphisim)
 // ONE FUNCTION IS TAKING MULTIPLE FORMS
@@ -52,7 +52,7 @@ void disp(int a);
 void disp(char ch);
 void disp(int a,int b);
 void disp(float f1,float f2);
-void disp(int a,float f);
+void disp(int b,float a);
 
 int main(void)
 {
@@ -84,9 +84,9 @@ void disp(float f1,float f2)
 }
 
 
-void disp(int a,float f)
+void disp(int b,float a)
 {
-     cout<<"\n inside two  argument : "<<a<<" "<<f;
+     cout<<"\n inside two  argument : "<<a<<" "<<b;
 }
 
-*/
+

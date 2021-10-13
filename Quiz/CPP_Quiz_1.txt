@@ -4,7 +4,7 @@ Answers
 1. Private specifier must be used before public specifier
 2. Private specifier must be used before protected specifier
 3. Private specifier must be used first
-4. Private specifier can be used anywhere in class
+4. Private specifier can be used anywhere in class   //
 
 
 2. 
@@ -79,7 +79,7 @@ Which of the following structure syntax is incorrect in case of c++?
 
 Answers
 1. All 1, 2 and 3 are incorrect
-2. Only 3 is incorrect
+2. Only 3 is incorrect //
 3. Only 1 is incorrect
 4. Both 1 and 2 are incorrect
 
@@ -117,7 +117,7 @@ public:
 
 int main()
 {
-	point pt1(10,20);
+	Point pt1(10,20);
 	Point pt2=30;
 
 	return 0;
@@ -127,7 +127,7 @@ Answers
 1. For pt1 object parameterized constructor with two parameters will call
 2. Compile time error
 3. For pt2 object single parameterized constructor will call
-4. Both 1 and 3
+4. Both 1 and 3  //
 
 
 4. 
@@ -143,7 +143,7 @@ Answers
 2. Both 1 and 2 are incorrect
 3. Both 1 and 3 are incorrect
 4. 1, 2 and 4 are incorrect
-5. None of the above
+5. None of the above  //
 
 
 5. 
@@ -156,7 +156,7 @@ Answers
 1. Only 1
 2. Both 1 and 2 are correct
 3. Both 1 and 3 are correct
-4. All of the above
+4. All of the above  //
 
 
 6. 
@@ -167,7 +167,7 @@ Which of the following statements is/are correct in context of class?
 
 Answers
 1. Only 2 is correct
-2. Only 1 is correct
+2. Only 1 is correct  //
 3. Both 1 and 2 are correct
 4. None of the above
 
@@ -242,7 +242,7 @@ Answers
 2. Compile time error
 3. For pt2 object single parameterized constructor will call and xPos and yPos will  initialize by 30
 4. For pt2 object single parameterized constructor will call and xPos and yPos will initialize by 40
-5. Both A and D
+5. Both A and D    //
 
 9. 
 Which of the following statements are correct?

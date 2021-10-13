@@ -13,7 +13,7 @@ int main(void)
         if(n2==0)
            // throw 1; //1 is integer //throwing an exception object
            //throw 'a';
-           throw 5.4;
+           throw (5.4);
         else
         {
             res=n1/n2;

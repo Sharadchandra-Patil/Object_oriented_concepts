@@ -21,9 +21,9 @@ class Derived:public Base
     {
        // Scope resolution is used to call to overridden function of base class 
         //from derived class
-         Base :: show(); 
+          
         cout<<" Inside Derived class show function "<<endl;
-        
+        Base :: show();
     }
 };
 

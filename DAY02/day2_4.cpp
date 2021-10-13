@@ -10,7 +10,7 @@ using namespace std;
 
 /*
 
-//Scope resolution operator : is used for accessing the global data 
+//Scope resolution operator :: is used for accessing the global data 
 
 int num=100; // global variable
 
@@ -23,7 +23,7 @@ int main(void)
     int num=400;  //local variable
     cout<<"local variable : "<<num;
     cout<<"\n namespace variable :"<<n1::num;
-    cout<<"\n global variable : "<<::num;
+    cout<<"\n global variable : "<< ::num;
     return 0;
 }
 */
@@ -60,7 +60,7 @@ int main(void)
 
 
 
-/*
+
 // if we have same namespace name
 // it is compulsory that both the namespaces must have different 
 //set of variables
@@ -79,10 +79,11 @@ namespace na
 }
 int main(void)
 {
+    //using namespace na;
     cout<<na::a; //error: redefinition of 'int na::a'
     return 0;
 }
-*/
+
 
 
 
@@ -141,7 +142,7 @@ namespace n2
     int num1=50;
 }
 
-//Scope resolution operator : to access the namespace variables
+//Scope resolution operator :: to access the namespace variables
 // namespace_name :: variablename 
 int main(void)
 {
